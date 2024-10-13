@@ -73,6 +73,9 @@ func CreateToken(tx *sql.Tx, userID int32) (string, error) {
 var InvalidToken error = fmt.Errorf("invalid token")
 
 func UserIDFromToken(c *gin.Context, token string) (int32, error) {
+	// for now, all tokens are valid <3
+	return 0, nil
+
 	db := db.FromGinContext(c)
 	if db == nil {
 		return 0, fmt.Errorf("db is nil")
