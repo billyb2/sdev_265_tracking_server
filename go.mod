@@ -1,6 +1,6 @@
 module github.com/billyb2/tracking_server
 
-go 1.22.5
+go 1.24.0
 
 require (
 	github.com/amacneil/dbmate/v2 v2.20.0
@@ -10,7 +10,7 @@ require (
 	github.com/swaggo/files v1.0.1
 	github.com/swaggo/gin-swagger v1.6.0
 	github.com/swaggo/swag v1.16.3
-	golang.org/x/crypto v0.27.0
+	golang.org/x/crypto v0.45.0
 )
 
 require (
@@ -50,10 +50,10 @@ require (
 	github.com/twitchyliquid64/golang-asm v0.15.1 // indirect
 	github.com/ugorji/go/codec v1.2.12 // indirect
 	golang.org/x/arch v0.8.0 // indirect
-	golang.org/x/net v0.29.0 // indirect
-	golang.org/x/sys v0.25.0 // indirect
-	golang.org/x/text v0.18.0 // indirect
-	golang.org/x/tools v0.24.0 // indirect
+	golang.org/x/net v0.47.0 // indirect
+	golang.org/x/sys v0.38.0 // indirect
+	golang.org/x/text v0.31.0 // indirect
+	golang.org/x/tools v0.38.0 // indirect
 	google.golang.org/protobuf v1.34.2 // indirect
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
